@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-artifact
-          path: target/Exercice6Spring-0.0.1-SNAPSHOT.jar
+          path: target/Spring_Exercice_Etudiant-0.0.1-SNAPSHOT.jar
 
   download:
     runs-on: ubuntu-latest
